@@ -1,23 +1,19 @@
 {
-  "name": "baileys",
+  "name": "Baileys",
   "version": "6.8.5",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
-    "baileys",
-    "whatsapp",
-    "js-whatsapp",
-    "whatsapp-api", 
-    "whatsapp-web",
-    "whatsapp-bot",
-    "automation",
-    "multi-device"
+    "baileys", "whatsapp",
+    "js-whatsapp", "whatsapp-api", 
+    "whatsapp-web", "whatsapp-bot",
+    "automation", "multi-device"
   ],
-  "homepage": "https://developers.facebook.com/docs/whatsapp/",
+  "homepage": "https://github.com/this-xyz/bail#readme",
   "repository": {
-    "url": "https://web.whatsapp.com/"
+    "url": "git+ssh://git@github.com/this-xyz/bail.git"
   },
-  "license": "MIT",
-  "author": "Meta Platforms, Inc.",
+  "license": "MIT-License",
+  "author": "this-xyz",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -37,7 +33,7 @@
     "cache-manager": "^5.7.6",
     "cheerio": "^1.0.0-rc.10",
     "libphonenumber-js": "^1.10.20",
-    "libsignal": "github:this-xyz/libsignal",
+    "libsignal": "github:this-xyz/libsignal-node",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
     "pino": "^9.6",
@@ -46,7 +42,7 @@
     "ws": "^8.13.0"
   },
   "devDependencies": {
-    "@whiskeysockets/eslint-config": "^1.0.0",
+    "@this-xyz/eslint-config": "github:this-xyz/eslint-config",
     "@types/got": "^9.6.11",
     "@types/jest": "^27.5.1",
     "@types/node": "^16.18.126",
